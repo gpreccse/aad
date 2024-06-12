@@ -1,0 +1,30 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/item1"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="Bluetooth"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/item2"
+        android:title="Alarm"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/item3"
+        android:title="Social Media"
+        app:showAsAction="never">
+
+        <menu>
+            <item
+                android:id="@+id/subitem1"
+                android:title="Twitter" />
+            <item
+                android:id="@+id/subitem2"
+                android:title="Instagram" />
+        </menu>
+    </item>
+</menu>
